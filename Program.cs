@@ -1,9 +1,15 @@
+
 ﻿using System;
+
+﻿using System.IO;
+using System.Security.Cryptography.X509Certificates;
+
 
 namespace ConsoleApp1
 {
     internal class Program
     {
+
      
 
        
@@ -25,8 +31,27 @@ namespace ConsoleApp1
             // this is new method
            
         }
-      
 
+
+        static void Main(string[] args)
+        {
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+        
     }
 }
 
