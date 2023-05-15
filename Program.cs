@@ -1,4 +1,5 @@
-﻿using System.Security.Cryptography.X509Certificates;
+﻿using System.IO;
+using System.Security.Cryptography.X509Certificates;
 
 namespace ConsoleApp1
 {
@@ -136,27 +137,13 @@ namespace ConsoleApp1
         {
 
 
-            int x = somemet();
+        
             
             
         }
 
 
-        public static int somemet()
-        {
-            int x;
-
-            try
-            {
-                 x = Convert.ToInt32(Console.ReadLine());
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine(e.Message);
-            }
-
-            return x;
-        }
+   
       
 
         public static FileInfo FindLargestFileRecursively(string path)
@@ -188,6 +175,7 @@ namespace ConsoleApp1
 
             return largestFile;
         }
+
 
     }
 }
